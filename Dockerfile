@@ -1,4 +1,4 @@
-FROM metabase/metabase:v0.33.3
+FROM metabase/metabase:v0.34.3
 
 ADD https://github.com/dacort/metabase-athena-driver/releases/download/v0.1.0/athena.metabase-driver.jar plugins/
 
